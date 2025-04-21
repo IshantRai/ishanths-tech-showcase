@@ -1,5 +1,4 @@
-
-import { Github, Linkedin, Mail, MapPin, Phone, Instagram, X } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Instagram, X, Send } from "lucide-react";
 import { useState } from "react";
 
 interface FormData {
