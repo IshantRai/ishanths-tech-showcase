@@ -1,5 +1,4 @@
-
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Mail, Instagram, X } from "lucide-react";
 
 export function Hero() {
   return (
@@ -45,7 +44,7 @@ export function Hero() {
           
           <div className="flex justify-center lg:justify-start gap-4">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/IshantRai" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border/50 hover:bg-secondary transition-colors duration-300"
@@ -54,7 +53,7 @@ export function Hero() {
               <Github size={20} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="https://www.linkedin.com/in/ishant-rai/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full border border-border/50 hover:bg-secondary transition-colors duration-300"
@@ -68,6 +67,24 @@ export function Hero() {
               aria-label="Email Me"
             >
               <Mail size={20} />
+            </a>
+            <a 
+              href="https://www.instagram.com/ishant_rai_/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border border-border/50 hover:bg-secondary transition-colors duration-300"
+              aria-label="Instagram Profile"
+            >
+              <Instagram size={20} />
+            </a>
+            <a 
+              href="https://x.com/ishantrai_" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border border-border/50 hover:bg-secondary transition-colors duration-300"
+              aria-label="X Profile"
+            >
+              <X size={20} />
             </a>
           </div>
         </div>

@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Mail, MapPin, Send } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Instagram, X } from "lucide-react";
 import { useState } from "react";
 
 interface FormData {
@@ -65,6 +65,18 @@ export function Contact(): JSX.Element {
                 
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
+                    <Phone className="text-primary" size={20} />
+                  </div>
+                  <div>
+                    <h4 className="font-medium mb-1">Phone</h4>
+                    <a href="tel:+918318512170" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 8318512170
+                    </a>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-4">
+                  <div className="p-3 rounded-full bg-primary/10 flex-shrink-0">
                     <MapPin className="text-primary" size={20} />
                   </div>
                   <div>
@@ -79,7 +91,7 @@ export function Contact(): JSX.Element {
                   <h4 className="font-medium mb-3">Connect with me</h4>
                   <div className="flex gap-4">
                     <a 
-                      href="https://github.com/yourusername" 
+                      href="https://github.com/IshantRai" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-3 rounded-full bg-background hover:bg-secondary transition-colors"
@@ -88,7 +100,7 @@ export function Contact(): JSX.Element {
                       <Github size={20} />
                     </a>
                     <a 
-                      href="https://linkedin.com/in/yourusername" 
+                      href="https://www.linkedin.com/in/ishant-rai/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="p-3 rounded-full bg-background hover:bg-secondary transition-colors"
@@ -102,6 +114,24 @@ export function Contact(): JSX.Element {
                       aria-label="Email Me"
                     >
                       <Mail size={20} />
+                    </a>
+                    <a 
+                      href="https://www.instagram.com/ishant_rai_/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full bg-background hover:bg-secondary transition-colors"
+                      aria-label="Instagram Profile"
+                    >
+                      <Instagram size={20} />
+                    </a>
+                    <a 
+                      href="https://x.com/ishantrai_" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full bg-background hover:bg-secondary transition-colors"
+                      aria-label="X Profile"
+                    >
+                      <X size={20} />
                     </a>
                   </div>
                 </div>
